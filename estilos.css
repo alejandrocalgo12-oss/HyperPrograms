@@ -1,0 +1,112 @@
+body{
+
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    margin:0;
+
+}
+
+header{
+
+    background:#0d6efd;
+    color:white;
+    padding:25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+    border-radius: 5px;
+}
+
+nav{
+
+    background:#333;
+    text-align:center;
+    padding:12px;
+
+}
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    margin:15px;
+
+}
+
+nav a:hover{
+
+    color:yellow;
+
+}
+
+section{
+
+    background:white;
+    width:80%;
+    margin:25px auto;
+    padding:20px;
+    border-radius:8px;
+
+}
+
+section img{
+
+    width:100%;
+    border-radius:8px;
+
+}
+
+h2{
+
+    color:#0d6efd;
+
+}
+
+.caja{
+
+    background:#eeeeee;
+    margin:15px 0;
+    padding:15px;
+    border-left:5px solid #0d6efd;
+
+}
+
+input,
+textarea{
+
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+
+}
+
+input[type="submit"]{
+
+    background:#0d6efd;
+    color:white;
+    border:none;
+    cursor:pointer;
+
+}
+
+input[type="submit"]:hover{
+
+    background:#084298;
+
+}
+
+footer{
+
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+
+}
